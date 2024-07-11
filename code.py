@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-data = pd.read_csv('C:/Users/GarciaDan/AppData/Local/localdata/project/data/data.csv')
+data = pd.read_csv('data.csv')
 
 # Display the first few rows of the dataset
 print(data.head())
@@ -120,7 +120,7 @@ print(f"Best Random Forest: RMSE = {rmse:.2f}, R² = {r2:.2f}")
 print("Best parameters:", grid_search.best_params_)
 
 # Save the best model to a .pkl file
-joblib.dump(best_model_rndmFor, 'C:/Users/GarciaDan/AppData/Local/localdata/data/models/best_model_rndmFor.pkl')
+joblib.dump(best_model_rndmFor, 'best_model_rndmFor.pkl')
 
 #%% Refinement and Hyperparameter Tuning GradientBoostingRegressor
 
@@ -160,7 +160,7 @@ print(f"Best Gradient Boosting: RMSE = {rmse:.2f}, R² = {r2:.2f}")
 print("Best parameters:", grid_search.best_params_)
 
 # Save the best model to a .pkl file
-joblib.dump(best_gbr_model, 'C:/Users/GarciaDan/AppData/Local/localdata/data/models/best_gradient_boosting_model.pkl')
+joblib.dump(best_gbr_model, 'best_gradient_boosting_model.pkl')
 
 #%% 5. Visualization and Conclusion
 
