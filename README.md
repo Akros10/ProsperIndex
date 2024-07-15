@@ -17,7 +17,7 @@ The goal is to build a robust predictive model with high accuracy.
 ## Files in the Repository
 - `README.md`: Overview of the project and instructions.
 - `data/`: Contains the dataset used for the project.
-- `code.py`: Python script with data exploration, preprocessing, modeling, and evaluation steps.
+- `ProsperIndex.py`: Python script with data exploration, preprocessing, modeling, and evaluation steps.
 - `models/`: Serialized models and results.
 - `visualizations/`: Plots and graphs generated during data exploration and model evaluation.
 
